@@ -9,7 +9,7 @@ const UserSchema = mongoose.Schema({
     password:{type:String,required:true},
     city:{type:String,required:true},
     age:{type:String,required:true},
-    is_marries:{type:String,required:true}
+    is_married:{type:String,required:true}
 },{
     versionKey:false
 })
